@@ -1,5 +1,6 @@
 ---
 layout: default
+
 ---
 
 # Malak Fadi Alradi
@@ -63,6 +64,12 @@ Beyond ML, I worked across the full software development lifecycle — from feat
   - Skills: SQL, PostgreSQL, Python, Pandas, data visualization (Matplotlib/Seaborn), KPI design, statistical testing, business analytics, data storytelling
 
 ---
+
+**Natural Language Processing**
+
+- **NER API** — Built a production-ready RESTful API using FastAPI for Named Entity Recognition, supporting both raw text input and `.txt` file uploads for entity extraction.
+  - Repo: [NER-API](https://github.com/M-Alradi/NER-API)
+  - Skills: Python, FastAPI, spaCy, NLP, NER, RESTful APIs, file processing
 
 <!-- ### Machine Learning & NLP
 
