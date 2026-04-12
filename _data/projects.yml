@@ -1,0 +1,61 @@
+- section: Foundations
+  subsections:
+    - title: Git, Environment Setup & Collaboration
+      projects:
+        - name: Environment & Git Workflows
+          repo: https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-M-Alradi
+          desc: Set up a reproducible Python development environment and practiced branching, merging, and pull request workflows.
+          tags: [Git, GitHub, VS Code, Virtual Envs, Branch Management]
+
+        - name: Team Collaboration Pipeline
+          repo: https://github.com/LevelUp-Applied-AI/m1-d1-git-workflows-M-Alradi
+          desc: Collaborated on a shared repository using feature branches and code review, resolving merge conflicts and maintaining a clean commit history.
+          tags: [Git Collaboration, Pull Requests, Code Review, Merge Conflicts]
+
+    - title: Data Pipelines & PyTorch Fundamentals
+      projects:
+        - name: Data Pipeline
+          repo: https://github.com/LevelUp-Applied-AI/m2-l2-data-pipeline-M-Alradi
+          desc: Built an end-to-end data loading and preprocessing pipeline using pandas, with validation checks and reproducible outputs.
+          tags: [Python, Pandas, Data Cleaning, Pipeline Design]
+
+        - name: PyTorch Model
+          repo: https://github.com/LevelUp-Applied-AI/m2-i2-pytorch-M-Alradi
+          desc: Implemented a neural network training loop in PyTorch, including data loading, forward/backward passes, and evaluation metrics.
+          tags: [PyTorch, Tensor Operations, Training Loops, Model Evaluation]
+
+    - title: Relational Databases & SQL
+      projects:
+        - name: SQL Fundamentals
+          repo: https://github.com/LevelUp-Applied-AI/m3-l3-sql-analytics-M-Alradi
+          desc: Practiced core SQL including complex queries, joins, aggregations, window functions, and database design.
+          tags: [SQL, PostgreSQL, Data Modeling]
+
+        - name: SQL Murder Mystery
+          repo: https://github.com/MsDiala/SQL-Murder-Mystery
+          desc: Solved a fictional murder case using SQL by querying a relational database, exploring multiple tables, and connecting clues using joins and conditional logic.
+          tags: [SQL, JOIN, GROUP BY, Logical Reasoning, Database Exploration]
+
+        - name: ETL Pipeline
+          repo: https://github.com/LevelUp-Applied-AI/m3-i3-etl-pipeline-M-Alradi
+          desc: Built an incremental ETL pipeline with change detection to extract, transform, and load data from PostgreSQL, with logging for reliability and traceability.
+          tags: [ETL, SQL, Change Detection, Logging, Pipeline Automation]
+
+    - title: Data Visualization & Communication
+      projects:
+        - name: Descriptive Analytics
+          repo: https://github.com/LevelUp-Applied-AI/m4-l4-descriptive-analytics-M-Alradi
+          desc: Performed exploratory data analysis on a university student performance dataset, including data cleaning, distribution analysis, correlation studies, and hypothesis testing.
+          tags: [Python, Pandas, Matplotlib, Seaborn, EDA, Hypothesis Testing]
+
+        - name: KPI Dashboard
+          repo: https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-M-Alradi
+          desc: Built an end-to-end KPI analytics dashboard for the Amman Digital Market by extracting data from PostgreSQL, defining business KPIs, and validating insights using statistical tests.
+          tags: [SQL, PostgreSQL, Python, Pandas, KPI Design, Business Analytics]
+
+    - title: "NLP & AI Systems"
+      projects:
+        - name: NER API
+          repo: https://github.com/M-Alradi/NER-API
+          desc: Built a production-ready RESTful API using FastAPI for Named Entity Recognition, supporting both raw text input and .txt file uploads for entity extraction.
+          tags: [Python, FastAPI, spaCy, NLP, NER, RESTful APIs]
