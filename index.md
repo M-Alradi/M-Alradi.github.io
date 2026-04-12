@@ -64,7 +64,7 @@ Beyond ML, I worked across the full software development lifecycle — from feat
 
 ---
 
-### Machine Learning & NLP
+<!-- ### Machine Learning & NLP
 
 **Machine Learning Fundamentals**
 
@@ -123,13 +123,13 @@ Beyond ML, I worked across the full software development lifecycle — from feat
 
 - **Project Name** — One sentence describing your capstone.
   - Repo: [link](#)
-  - Skills: Full-stack AI/ML system
+  - Skills: Full-stack AI/ML system -->
 
 ---
 
 ## Contact
 
-- **GitHub:** [https://github.com/M-Alradi]
-- **LinkedIn:** [https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/]
+- **GitHub:** https://github.com/M-Alradi
+- **LinkedIn:** https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/
 - **Email:** malakfadialradi@gmail.com
 - **Mobile:** +962 796311186
