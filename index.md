@@ -129,7 +129,7 @@ Beyond ML, I worked across the full software development lifecycle — from feat
 
 ## Contact
 
-- **GitHub:** https://github.com/M-Alradi
-- **LinkedIn:** https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/
-- **Email:** malakfadialradi@gmail.com
-- **Mobile:** +962 796311186
+- **GitHub:** [github.com/M-Alradi](https://github.com/M-Alradi)
+- **LinkedIn:** [linkedin.com/in/malak-fadi-alradi](https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/)
+- **Email:** [malakfadialradi@gmail.com](mailto:malakfadialradi@gmail.com)
+- **Mobile:** [+962 796311186](tel:+962796311186)
