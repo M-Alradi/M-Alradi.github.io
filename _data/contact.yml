@@ -1,0 +1,24 @@
+- label: GitHub
+  value: github.com/M-Alradi
+  link: https://github.com/M-Alradi
+  icon: "⌥"
+
+- label: LinkedIn
+  value: linkedin.com/in/malak-fadi-alradi
+  link: https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/
+  icon: "in"
+
+- label: Email
+  value: malakfadialradi@gmail.com
+  link: mailto:malakfadialradi@gmail.com
+  icon: "✉"
+
+- label: Mobile
+  value: +962 796311186
+  link: tel:+962796311186
+  icon: "✆"
+
+- label: Location
+  value: Amman, Jordan
+  link: "#"
+  icon: "📍"

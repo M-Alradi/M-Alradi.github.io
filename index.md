@@ -17,59 +17,33 @@ Beyond ML, I worked across the full software development lifecycle — from feat
 
 ## Projects
 
-### Foundations
+{% for section in site.data.projects %}
+<div class="section-title">{{ section.section }}</div>
 
-**Git, Environment Setup & Collaboration**
+  {% for subsection in section.subsections %}
+    {% if subsection.title != "" %}
+<div class="subsection-title">{{ subsection.title }}</div>
+    {% endif %}
 
-- **Environment & Git Workflows** — Set up a reproducible Python development environment and practiced branching, merging, and pull request workflows.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-M-Alradi](#)
-  - Skills: Git, GitHub, VS Code, virtual environments, branch management
+<div class="cards-grid">
+  {% for project in subsection.projects %}
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">{{ project.name }}</span>
+      <a class="card-link" href="{{ project.repo }}" target="_blank">↗ Repo</a>
+    </div>
+    <p class="card-desc">{{ project.desc }}</p>
+    <div class="tags">
+      {% for tag in project.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+  {% endfor %}
+{% endfor %}
 
-- **Team Collaboration Pipeline** — Collaborated on a shared repository using feature branches and code review, resolving merge conflicts and maintaining a clean commit history.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m1-d1-git-workflows-M-Alradi](#)
-  - Skills: Git collaboration, pull requests, code review, merge conflict resolution
-
-**Data Pipelines & PyTorch Fundamentals**
-
-- **Data Pipeline** — Built an end-to-end data loading and preprocessing pipeline using pandas, with validation checks and reproducible outputs.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m2-l2-data-pipeline-M-Alradi](#)
-  - Skills: Python, pandas, data cleaning, pipeline design
-
-- **PyTorch Model** — Implemented a neural network training loop in PyTorch, including data loading, forward/backward passes, and evaluation metrics.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m2-i2-pytorch-M-Alradi](#)
-  - Skills: PyTorch, tensor operations, training loops, model evaluation
-
-**Relational Databases & SQL**
-
-- **SQL Fundamentals** — Core SQL: complex queries, joins, aggregations, window functions, and database design for workload.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m3-l3-sql-analytics-M-Alradi](#)
-  - Skills: SQL, PostgreSQL, data modeling
-
-- **SQL Murder Mystery** — Solved a fictional murder case using SQL by querying a relational database. I explored multiple tables, analyzed clues, filtered suspects, and connected information using joins and conditional statements to identify the culprit.
-  - Repo: [https://github.com/MsDiala/SQL-Murder-Mystery](#)
-  - Skills: SQL (SELECT, WHERE, JOIN, GROUP BY), data investigation, logical reasoning, problem solving, database exploration
-
-- **ETL Pipeline** — Built an incremental ETL pipeline with change detection to efficiently extract, transform, and load data from a PostgreSQL database. Implemented data transformations, structured loading processes, and added logging to track pipeline execution and ensure reliability and traceability.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m3-i3-etl-pipeline-M-Alradi](#)
-  - Skills: ETL design, incremental loading, change detection, SQL, data transformation, logging, pipeline automation
-
-**Data Visualization & Communication**
-
-- **Descriptive Analytics** — Performed exploratory data analysis on a multi-variable university student performance dataset, including data cleaning, distribution analysis, correlation studies, and hypothesis testing to uncover insights about academic performance factors.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m4-l4-descriptive-analytics-M-Alradi](#)
-  - Skills: Python, Pandas, Matplotlib, Seaborn, statistical analysis, hypothesis testing, data storytelling, exploratory data analysis (EDA)
-
-- **KPI Dashboard** — Built an end-to-end KPI analytics dashboard for the Amman Digital Market by extracting data from a PostgreSQL database, defining business KPIs, and validating insights using statistical tests.
-  - Repo: [https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-M-Alradi](#)
-  - Skills: SQL, PostgreSQL, Python, Pandas, data visualization (Matplotlib/Seaborn), KPI design, statistical testing, business analytics, data storytelling
-
----
-
-**Natural Language Processing**
-
-- **NER API** — Built a production-ready RESTful API using FastAPI for Named Entity Recognition, supporting both raw text input and `.txt` file uploads for entity extraction.
-  - Repo: [NER-API](https://github.com/M-Alradi/NER-API)
-  - Skills: Python, FastAPI, spaCy, NLP, NER, RESTful APIs, file processing
 
 <!-- ### Machine Learning & NLP
 
@@ -136,7 +110,11 @@ Beyond ML, I worked across the full software development lifecycle — from feat
 
 ## Contact
 
-- **GitHub:** [github.com/M-Alradi](https://github.com/M-Alradi)
-- **LinkedIn:** [linkedin.com/in/malak-fadi-alradi](https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/)
-- **Email:** [malakfadialradi@gmail.com](mailto:malakfadialradi@gmail.com)
-- **Mobile:** [+962 796311186](tel:+962796311186)
+<div class="contact-grid">
+{% for item in site.data.contact %}
+  <a class="contact-btn" href="{{ item.link }}" target="_blank">
+    <span class="contact-icon">{{ item.icon }}</span>
+    <span class="contact-label">{{ item.value }}</span>
+  </a>
+{% endfor %}
+</div>
