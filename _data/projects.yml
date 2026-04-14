@@ -1,4 +1,5 @@
 - section: Foundations
+  personal: false
   subsections:
     - title: Git, Environment Setup & Collaboration
       projects:
@@ -53,7 +54,22 @@
           desc: Built an end-to-end KPI analytics dashboard for the Amman Digital Market by extracting data from PostgreSQL, defining business KPIs, and validating insights using statistical tests.
           tags: [SQL, PostgreSQL, Python, Pandas, KPI Design, Business Analytics]
 
-    - title: "NLP & AI Systems"
+    - title: Regression & Machine Learning
+      projects:
+        - name: Regression & Evaluation
+          repo: https://github.com/LevelUp-Applied-AI/m5-l5a-regression-eval-M-Alradi
+          desc: Built and evaluated regression models with a focus on model selection, performance metrics, and interpreting results.
+          tags: [Python, scikit-learn, Regression, Model Evaluation, Statistics]
+
+        - name: Regularization Explorer
+          repo: https://github.com/M-Alradi/regularization-path-explorer
+          desc: Explored regularization techniques including Lasso and Ridge regression, visualizing how regularization paths affect model complexity and performance.
+          tags: [Python, scikit-learn, Lasso, Ridge, Regularization, Data Visualization]
+
+- section: Personal Projects
+  personal: true
+  subsections:
+    - title: NLP & AI Systems
       projects:
         - name: NER API
           repo: https://github.com/M-Alradi/NER-API

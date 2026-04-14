@@ -1,17 +1,47 @@
 ---
 layout: default
+---
+
+<div class="profile-section">
+  <img src="/assets/images/profile.jpg" alt="Malak Al-Radi" class="profile-photo">
+  <div class="profile-text">
+
+I'm a Machine Learning Engineer and Software Developer with a Bachelor's in Intelligent Systems Engineering from Tafila Technical University. 
+Over nearly 2 years at 01 Inventions Company (Carseer), I built and deployed intelligent systems spanning NLP, OCR pipelines, RESTful APIs, and full-stack development. 
+I'm currently part of the AI.SPIRE program, refining my skills in AI and ML toward true professionalism.
+
+  </div>
+</div>
 
 ---
 
-# Malak Fadi Alradi
+## Experience
 
-## About
+<div class="exp-headlines">
+  <a class="exp-item" href="/experience">
+    <div>
+      <div class="exp-role">Teaching Assistant — AI Project Mentor</div>
+      <div class="exp-company">University of Winchester</div>
+    </div>
+    <div class="exp-date">Oct 2025 – Jan 2026</div>
+  </a>
 
-I'm a Machine Learning Engineer and Software Developer with a Bachelor's in Intelligent Systems Engineering from Tafila Technical University. 
+  <a class="exp-item" href="/experience">
+    <div>
+      <div class="exp-role">Junior Machine Learning Engineer & Software Developer</div>
+      <div class="exp-company">01 Inventions Company (Carseer)</div>
+    </div>
+    <div class="exp-date">Jan 2024 – Jun 2025</div>
+  </a>
 
-Over nearly 2 years at 01 Inventions Company (Carseer), I had the opportunity to build and deploy a wide range of intelligent systems and projects — from developing production-ready NLP models specializing in Named Entity Recognition (NER), to building OCR pipelines that automated data extraction from scanned documents and images. I also architected RESTful APIs using FastAPI to integrate machine learning models into enterprise applications, and contributed to full-stack development using Python and .NET Core, collaborating closely with cross-functional teams to deliver end-to-end solutions. 
-
-Beyond ML, I worked across the full software development lifecycle — from feature engineering and model optimization to integration testing and CI/CD pipelines — gaining a well-rounded foundation in both AI and software engineering. I'm currently part of the AI.SPIRE program, where I'm pushing my expertise further, refining my skills in AI and ML, and working toward true professionalism in the field. I'm deeply passionate about leveraging cutting-edge AI technologies to build systems that are not just technically sound, but genuinely impactful in the real world.
+  <a class="exp-item" href="/experience">
+    <div>
+      <div class="exp-role">Machine Learning Trainee</div>
+      <div class="exp-company">01 Inventions Company (Carseer)</div>
+    </div>
+    <div class="exp-date">Oct 2023 – Dec 2023</div>
+  </a>
+</div>
 
 ---
 
@@ -27,7 +57,7 @@ Beyond ML, I worked across the full software development lifecycle — from feat
 
 <div class="cards-grid">
   {% for project in subsection.projects %}
-  <div class="card">
+  <div class="card {% if section.personal %}card-personal{% endif %}">
     <div class="card-header">
       <span class="card-title">{{ project.name }}</span>
       <a class="card-link" href="{{ project.repo }}" target="_blank">↗ Repo</a>
@@ -35,7 +65,7 @@ Beyond ML, I worked across the full software development lifecycle — from feat
     <p class="card-desc">{{ project.desc }}</p>
     <div class="tags">
       {% for tag in project.tags %}
-      <span class="tag">{{ tag }}</span>
+      <span class="tag {% if section.personal %}tag-personal{% endif %}">{{ tag }}</span>
       {% endfor %}
     </div>
   </div>

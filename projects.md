@@ -15,7 +15,7 @@ title: Projects
 
 <div class="cards-grid">
   {% for project in subsection.projects %}
-  <div class="card">
+  <div class="card {% if section.personal %}card-personal{% endif %}">
     <div class="card-header">
       <span class="card-title">{{ project.name }}</span>
       <a class="card-link" href="{{ project.repo }}" target="_blank">↗ Repo</a>
@@ -23,7 +23,7 @@ title: Projects
     <p class="card-desc">{{ project.desc }}</p>
     <div class="tags">
       {% for tag in project.tags %}
-      <span class="tag">{{ tag }}</span>
+      <span class="tag {% if section.personal %}tag-personal{% endif %}">{{ tag }}</span>
       {% endfor %}
     </div>
   </div>
