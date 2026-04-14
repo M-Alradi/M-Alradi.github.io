@@ -1,5 +1,7 @@
 #header {
   background: #1a1a1a !important;
+  position: relative;   
+  z-index: 1000;
 }
 
 #header nav {
@@ -229,4 +231,133 @@ div#header nav ul li a:hover {
   gap: 12px;
   margin-top: 24px;
   justify-content: center;
+}
+
+/* ── Personal Projects Cards ── */
+.card-personal {
+  background: #1a1f2e;
+  border-color: #2a3a5e;
+}
+
+.card-personal:hover {
+  border-color: #4a6aae;
+}
+
+.tag-personal {
+  background: #1e2a40;
+  border-color: #2a3a5e;
+  color: #7aa2d4;
+}
+
+/* ── Profile Photo ── */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center; 
+  border: 3px solid #444;
+  image-rendering: auto;
+}
+
+.profile-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Center profile section on mobile */
+@media (max-width: 768px) {
+
+  .profile-section {
+    flex-direction: column;     /* stack image + text */
+    align-items: center;        /* center horizontally */
+    text-align: center;         /* center text */
+  }
+
+  .profile-photo {
+    margin: 0 auto 16px auto;   /* center image */
+    display: block;
+  }
+
+}
+
+/* ── Experience Headlines ── */
+.exp-headlines {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 16px 0 32px 0;
+}
+
+.exp-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 14px 20px;
+  text-decoration: none !important;
+  transition: border-color 0.2s;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.exp-item:hover {
+  border-color: #666;
+}
+
+.exp-company {
+  color: #aaa;
+  font-size: 0.85em;
+}
+
+.exp-date {
+  color: #666;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+/* Navbar layout */
+#header nav {
+  overflow-x: auto;
+}
+
+#header nav ul {
+  display: flex;
+  flex-wrap: nowrap;       /* prevent wrapping */
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 12px 16px;
+  white-space: nowrap;     /* keep links in one line */
+}
+
+/* Prevent shrinking */
+#header nav ul li {
+  flex: 0 0 auto;
+}
+
+/* Optional: hide scrollbar (cleaner look) */
+#header nav::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  margin-top: 20px;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  #header nav {
+    display: block !important;
+  }
 }

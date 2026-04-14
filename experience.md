@@ -7,6 +7,14 @@ title: Experience
 
 ---
 
+## Teaching Assistant — AI Project Mentor
+**University of Winchester** · Remote
+*October 2025 – January 2026*
+
+- Mentored a university student through an artificial intelligence project, providing guidance on AI concepts, implementation, and best practices.
+
+---
+
 ## Junior Machine Learning Engineer & Software Developer
 **01 Inventions Company (Carseer)** · Amman, Jordan
 *January 2024 – June 2025*
@@ -30,6 +38,7 @@ title: Experience
 ## Education
 
 **Bachelor of Intelligent Systems Engineering**
+
 Tafila Technical University · Tafila, Jordan
 *2019 – 2023*
 
