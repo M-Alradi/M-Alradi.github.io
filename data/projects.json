@@ -28,6 +28,35 @@
     "tags": ["SQL", "PostgreSQL", "Python", "Pandas", "KPI Design", "Business Analytics"],
     "link": "https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-M-Alradi",
     "featured": true
+  },{
+    "id": "ml-learning-curves-diagnostic",
+    "title": "ML Learning Curves Diagnostic",
+    "category": "Foundations",
+    "subcategory": "Model Diagnostics & Bias-Variance",
+    "description": "Implemented scikit-learn’s learning_curve to diagnose whether a logistic regression model on the telecom churn dataset suffers from high bias or high variance. Produced a training vs. validation score plot and analyzed the results through the lens of the bias-variance tradeoff. Evaluated whether collecting more data or increasing model complexity would likely improve performance, connecting empirical findings to theoretical ML concepts.",
+    "tags": ["Python", "scikit-learn", "Learning Curves", "Bias-Variance Tradeoff", "Model Diagnostics", "Logistic Regression"],
+    "link": "https://github.com/M-Alradi/learning_curves_diagnostic/pull/1",
+    "featured": false
+  },
+  {
+    "id": "mail-flow",
+    "title": "Mail Flow",
+    "category": "Personal Projects",
+    "subcategory": "Backend Systems & Automation",
+    "description": "A production-structured Python tool for sending, reading, and scheduling emails using the standard library and lightweight supporting packages. Implements secure credential management, structured logging, and modular design for maintainability. Supports automated scheduling and full email lifecycle management through SMTP and IMAP integration.",
+    "tags": ["Python", "SQLite", "Logging", "smtplib", "imaplib", "email", "dotenv", "APScheduler"],
+    "link": "https://github.com/M-Alradi/mailflow-python",
+    "featured": true
+  },
+  {
+    "id": "ml-evaluation-pipeline",
+    "title": "ML Evaluation Pipeline",
+    "category": "Foundations",
+    "subcategory": "Model Evaluation & Pipelines",
+    "description": "Built a fully reproducible ML evaluation pipeline integrating data splitting, preprocessing pipelines, cross-validation, classification metrics, and regularization into a single workflow. Systematically compared five model configurations (three real models and two dummy baselines) on the Petra Telecom churn dataset and generated a results table with a business-grounded recommendation. Designed the system to be extensible for advanced models and evaluation techniques in future iterations.",
+    "tags": ["Python", "scikit-learn", "Cross-Validation", "Pipelines", "Classification Metrics", "Regularization", "Model Comparison"],
+    "link": "https://github.com/LevelUp-Applied-AI/m5-i5a-ml-pipeline-M-Alradi/",
+    "featured": false
   },
   {
     "id": "etl-pipeline",
