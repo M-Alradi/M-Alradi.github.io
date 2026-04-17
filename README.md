@@ -9,15 +9,18 @@ building intelligent systems, NLP pipelines, OCR workflows, and full-stack
 applications — built over nearly 2 years at 01 Inventions Company (Carseer) 
 and continued through the AI.SPIRE program.
 
+
 ## What's Inside
-- **About Me** — My background, experience, and what drives my work in AI & ML
+- **Home** — Hero section with name, title, stats, and quick links
+- **About Me** —  Full bio, languages, affiliations
 - **Projects** — A collection of the systems and solutions I've built, spanning 
   NLP, computer vision, RESTful APIs, and full-stack development
 - **Skills** — My technical stack including Python, TensorFlow, FastAPI, 
   .NET Core, and more
 - **Experience** — My professional timeline and key contributions
-- **Certifications** — Courses and certifications in ML, Deep Learning, 
-  and Reinforcement Learning
+- **Education** — Degree, current program, and certifications
+- **Contact** — All contact channels 
+
 
 ## Contact
 - 📧 Email: malakfadialradi@gmail.com

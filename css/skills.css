@@ -1,0 +1,117 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-xl);
+}
+
+.skill-group {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-card);
+  transition: all var(--transition-base);
+}
+.skill-group:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-card), var(--shadow-glow);
+}
+
+.skill-group-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.skill-group-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  background: rgba(192, 68, 10, 0.12);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--color-rust-light);
+}
+.skill-group-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.skill-group-title {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.skill-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--color-divider);
+}
+.skill-item:last-child {
+  border-bottom: none;
+}
+.skill-item::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-rust-dim);
+  flex-shrink: 0;
+}
+
+.skill-item-name {
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+}
+
+.skill-item-name em {
+  font-style: normal;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin-left: 4px;
+}
+
+.skills-tags-section {
+  margin-top: var(--space-2xl);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+}
+
+.skills-tags-title {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+.skills-tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+@media (max-width: 700px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

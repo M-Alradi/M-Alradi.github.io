@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ta-winchester",
+    "role": "Teaching Assistant — AI Project Mentor",
+    "company": "University of Winchester",
+    "location": "Remote",
+    "period": "October 2025 – January 2026",
+    "type": "Part-Time",
+    "logo": "assets/logos/winchester.png",
+    "highlights": [
+      "Mentored a university student through an artificial intelligence project",
+      "Provided guidance on AI concepts, implementation, and best practices"
+    ]
+  },
+  {
+    "id": "junior-ml-carseer",
+    "role": "Junior Machine Learning Engineer & Software Developer",
+    "company": "01 Inventions Company (Carseer)",
+    "location": "Amman, Jordan",
+    "period": "January 2024 – June 2025",
+    "type": "Full-Time",
+    "logo": "assets/logos/carseer.png",
+    "highlights": [
+      "Built and deployed production-ready NLP models specializing in Named Entity Recognition (NER) and OCR pipelines for automated document processing",
+      "Architected RESTful APIs using FastAPI to integrate ML models into enterprise applications",
+      "Contributed to full-stack development using Python and .NET Core, collaborating with cross-functional teams across the full software development lifecycle",
+      "Applied CI/CD pipelines, feature engineering, and comprehensive testing strategies to maintain code quality and model performance"
+    ]
+  },
+  {
+    "id": "ml-trainee-carseer",
+    "role": "Machine Learning Trainee",
+    "company": "01 Inventions Company (Carseer)",
+    "location": "Amman, Jordan",
+    "period": "October 2023 – December 2023",
+    "type": "Internship",
+    "logo": "assets/logos/carseer.png",
+    "highlights": [
+      "Completed an intensive ML training program covering end-to-end workflows, full-stack development, and modern software engineering practices",
+      "Built applications using Python, Streamlit, and RESTful APIs",
+      "Designed conversational agents using RASA and prompt engineering"
+    ]
+  }
+]
