@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Malak Al-Radi — AI/ML Engineer & Software Developer. Applied AI & ML Systems Portfolio." />
+  <title>Malak Al-Radi — AI/ML Engineer</title>
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav" id="main-nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-dot"></span>
+      Malak Al-Radi
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="pages/about.html" class="nav-link">About</a></li>
+      <li><a href="pages/experience.html" class="nav-link">Experience</a></li>
+      <li><a href="pages/projects.html" class="nav-link">Projects</a></li>
+      <li><a href="pages/skills.html" class="nav-link">Skills</a></li>
+      <li><a href="pages/education.html" class="nav-link">Education</a></li>
+      <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav-mobile-menu" id="mobile-menu">
+  <a href="index.html" class="nav-mobile-link">Home</a>
+  <a href="pages/about.html" class="nav-mobile-link">About</a>
+  <a href="pages/experience.html" class="nav-mobile-link">Experience</a>
+  <a href="pages/projects.html" class="nav-mobile-link">Projects</a>
+  <a href="pages/skills.html" class="nav-mobile-link">Skills</a>
+  <a href="pages/education.html" class="nav-mobile-link">Education</a>
+  <a href="pages/contact.html" class="nav-mobile-link">Contact</a>
+</div>
+
+<!-- Hero -->
+<section class="hero grid-bg">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-up">
+        <span class="hero-badge-dot"></span>
+        AI/ML Engineer &amp; Software Developer
+      </div>
+
+      <h1 class="hero-name animate-fade-up animate-fade-up-delay-1">
+        <span class="hero-name-accent">Malak</span><br />Al-Radi
+      </h1>
+
+      <p class="hero-title animate-fade-up animate-fade-up-delay-2">
+        Building <strong>intelligent systems</strong> that are technically sound and genuinely impactful
+      </p>
+
+      <p class="hero-description animate-fade-up animate-fade-up-delay-3">
+        ML Engineer specializing in NLP, computer vision, and production-grade AI systems. 
+        Currently part of the <em>AI.SPIRE</em> program, pushing expertise further in applied machine learning.
+      </p>
+
+      <div class="hero-actions animate-fade-up animate-fade-up-delay-4">
+        <a href="pages/projects.html" class="btn btn-primary">View Projects</a>
+        <a href="pages/contact.html" class="btn btn-outline">Get in Touch</a>
+      </div>
+
+      <div class="hero-links animate-fade-up animate-fade-up-delay-4">
+        <a href="https://github.com/M-Alradi" target="_blank" rel="noopener" class="hero-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          GitHub
+        </a>
+        <span class="hero-link-sep"></span>
+        <a href="https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/" target="_blank" rel="noopener" class="hero-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <span class="hero-link-sep"></span>
+        <a href="https://m-alradi.github.io" target="_blank" rel="noopener" class="hero-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          Website
+        </a>
+        <span class="hero-link-sep"></span>
+        <span class="hero-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Amman, Jordan
+        </span>
+      </div>
+
+      <div class="hero-stats animate-fade-up animate-fade-up-delay-4">
+        <div>
+          <div class="hero-stat-value">2<span>yr</span></div>
+          <div class="hero-stat-label">ML Experience</div>
+        </div>
+        <div>
+          <div class="hero-stat-value">10<span>+</span></div>
+          <div class="hero-stat-label">Projects Built</div>
+        </div>
+        <div>
+          <div class="hero-stat-value">3<span>+</span></div>
+          <div class="hero-stat-label">Languages</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image-wrap animate-fade-up animate-fade-up-delay-2">
+      <div class="hero-image-frame">
+        <!-- Place your profile image at assets/images/profile.jpg -->
+        <img src="assets/images/profile.jpg" alt="Malak Al-Radi" 
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <div class="hero-image-placeholder" style="display:none;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          <span style="color:var(--color-text-muted);font-size:0.65rem;">profile.jpg</span>
+        </div>
+      </div>
+      <div class="hero-image-deco">
+        <div class="hero-image-deco-count">AI</div>
+        <div class="hero-image-deco-label">ML<br/>Engineer</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- What I Do Section -->
+<section class="section home-focus-section">
+  <div class="container">
+    <div class="section-label">Expertise</div>
+    <h2 class="section-title">What I Work On</h2>
+    <p class="section-subtitle">Applied AI across the full stack — from data pipelines to production APIs.</p>
+    <div class="home-focus-grid">
+      <div class="home-focus-card">
+        <div class="home-focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        </div>
+        <div class="home-focus-title">Natural Language Processing</div>
+        <div class="home-focus-desc">Production NLP systems specializing in Named Entity Recognition, text classification, and transformer-based models.</div>
+        <div class="home-focus-tags">
+          <span class="tag">NER</span><span class="tag">spaCy</span><span class="tag">Transformers</span>
+        </div>
+      </div>
+      <div class="home-focus-card">
+        <div class="home-focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <div class="home-focus-title">Computer Vision &amp; OCR</div>
+        <div class="home-focus-desc">Automated document processing pipelines using OCR, image classification, and visual data extraction.</div>
+        <div class="home-focus-tags">
+          <span class="tag">OpenCV</span><span class="tag">OCR</span><span class="tag">Image ML</span>
+        </div>
+      </div>
+      <div class="home-focus-card">
+        <div class="home-focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+        </div>
+        <div class="home-focus-title">ML APIs &amp; Integration</div>
+        <div class="home-focus-desc">RESTful APIs built with FastAPI that bring ML models into enterprise applications end-to-end.</div>
+        <div class="home-focus-tags">
+          <span class="tag">FastAPI</span><span class="tag">Python</span><span class="tag">REST</span>
+        </div>
+      </div>
+      <div class="home-focus-card">
+        <div class="home-focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg>
+        </div>
+        <div class="home-focus-title">Machine Learning Engineering</div>
+        <div class="home-focus-desc">End-to-end ML workflows — feature engineering, model training, hyperparameter tuning, and MLOps.</div>
+        <div class="home-focus-tags">
+          <span class="tag">scikit-learn</span><span class="tag">PyTorch</span><span class="tag">MLOps</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Preview Section -->
+<section class="section home-exp-section">
+  <div class="container">
+    <div class="section-label">Career</div>
+    <h2 class="section-title">Experience</h2>
+    <p class="section-subtitle">From intensive ML training to building production systems at scale.</p>
+    <div class="home-exp-list">
+
+      <a href="pages/experience.html" class="home-exp-card">
+        <div class="home-exp-card-left">
+          <div class="home-exp-logo">
+            <img src="assets/logos/winchester.png" alt="University of Winchester"
+                 onerror="this.style.display='none'; this.parentElement.textContent='UW';" />
+          </div>
+          <div class="home-exp-line"></div>
+        </div>
+        <div class="home-exp-card-body">
+          <div class="home-exp-meta">
+            <span class="home-exp-period">Oct 2025 – Jan 2026</span>
+            <span class="home-exp-type">Part-Time</span>
+          </div>
+          <div class="home-exp-role">Teaching Assistant — AI Project Mentor</div>
+          <div class="home-exp-company">University of Winchester · Remote</div>
+          <ul class="home-exp-points">
+            <li>Mentored a student through an end-to-end AI project, providing guidance on concepts, implementation, and best practices.</li>
+          </ul>
+        </div>
+        <div class="home-exp-arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+      </a>
+
+      <a href="pages/experience.html" class="home-exp-card">
+        <div class="home-exp-card-left">
+          <div class="home-exp-logo">
+            <img src="assets/logos/carseer.png" alt="Carseer"
+                 onerror="this.style.display='none'; this.parentElement.textContent='CS';" />
+          </div>
+          <div class="home-exp-line"></div>
+        </div>
+        <div class="home-exp-card-body">
+          <div class="home-exp-meta">
+            <span class="home-exp-period">Jan 2024 – Jun 2025</span>
+            <span class="home-exp-type">Full-Time</span>
+          </div>
+          <div class="home-exp-role">Junior ML Engineer &amp; Software Developer</div>
+          <div class="home-exp-company">01 Inventions Company (Carseer) · Amman, Jordan</div>
+          <ul class="home-exp-points">
+            <li>Built production-ready NLP models (NER) and OCR pipelines for automated document processing.</li>
+            <li>Architected RESTful APIs with FastAPI and contributed to full-stack development using Python and .NET Core.</li>
+            <li>Applied CI/CD pipelines, feature engineering, and testing strategies across the full ML lifecycle.</li>
+          </ul>
+        </div>
+        <div class="home-exp-arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+      </a>
+
+      <a href="pages/experience.html" class="home-exp-card">
+        <div class="home-exp-card-left">
+          <div class="home-exp-logo">
+            <img src="assets/logos/carseer.png" alt="Carseer"
+                 onerror="this.style.display='none'; this.parentElement.textContent='CS';" />
+          </div>
+        </div>
+        <div class="home-exp-card-body">
+          <div class="home-exp-meta">
+            <span class="home-exp-period">Oct 2023 – Dec 2023</span>
+            <span class="home-exp-type">Internship</span>
+          </div>
+          <div class="home-exp-role">Machine Learning Trainee</div>
+          <div class="home-exp-company">01 Inventions Company (Carseer) · Amman, Jordan</div>
+          <ul class="home-exp-points">
+            <li>Completed an intensive ML training program covering end-to-end workflows and software engineering practices.</li>
+            <li>Built applications using Python, Streamlit, and RESTful APIs; designed conversational agents with RASA.</li>
+          </ul>
+        </div>
+        <div class="home-exp-arrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-brand-name">Malak Al-Radi</div>
+        <div class="footer-brand-tagline">AI/ML Engineer building intelligent systems that make a real-world impact.</div>
+      </div>
+      <div>
+        <div class="footer-nav-title">Navigation</div>
+        <div class="footer-nav-links">
+          <a href="index.html" class="footer-nav-link">Home</a>
+          <a href="pages/about.html" class="footer-nav-link">About</a>
+          <a href="pages/experience.html" class="footer-nav-link">Experience</a>
+          <a href="pages/projects.html" class="footer-nav-link">Projects</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-nav-title">More</div>
+        <div class="footer-nav-links">
+          <a href="pages/skills.html" class="footer-nav-link">Skills</a>
+          <a href="pages/education.html" class="footer-nav-link">Education</a>
+          <a href="pages/contact.html" class="footer-nav-link">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">&copy; 2025 Malak Al-Radi. Built with <span>&hearts;</span> and precision.</div>
+      <div class="footer-social">
+        <a href="https://github.com/M-Alradi" target="_blank" rel="noopener" class="footer-social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/malak-fadi-alradi-0a8663234/" target="_blank" rel="noopener" class="footer-social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:malakfadialradi@gmail.com" class="footer-social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

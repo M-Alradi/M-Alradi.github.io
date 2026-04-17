@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ner-api",
+    "title": "NER API",
+    "category": "Personal Projects",
+    "subcategory": "NLP & AI Systems",
+    "description": "Built a production-ready RESTful API using FastAPI for Named Entity Recognition, supporting both raw text input and .txt file uploads for entity extraction.",
+    "tags": ["Python", "FastAPI", "spaCy", "NLP", "NER", "RESTful APIs"],
+    "link": "https://github.com/M-Alradi/NER-API",
+    "featured": true
+  },
+  {
+    "id": "regularization-explorer",
+    "title": "Regularization Path Explorer",
+    "category": "Foundations",
+    "subcategory": "Regression & Machine Learning",
+    "description": "Explored regularization techniques including Lasso and Ridge regression, visualizing how regularization paths affect model complexity and performance.",
+    "tags": ["Python", "scikit-learn", "Lasso", "Ridge", "Regularization", "Data Visualization"],
+    "link": "https://github.com/M-Alradi/regularization-path-explorer",
+    "featured": true
+  },
+  {
+    "id": "kpi-dashboard",
+    "title": "KPI Dashboard",
+    "category": "Foundations",
+    "subcategory": "Data Visualization & Communication",
+    "description": "Built an end-to-end KPI analytics dashboard for the Amman Digital Market by extracting data from PostgreSQL, defining business KPIs, and validating insights using statistical tests.",
+    "tags": ["SQL", "PostgreSQL", "Python", "Pandas", "KPI Design", "Business Analytics"],
+    "link": "https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-M-Alradi",
+    "featured": true
+  },
+  {
+    "id": "etl-pipeline",
+    "title": "ETL Pipeline",
+    "category": "Foundations",
+    "subcategory": "Relational Databases & SQL",
+    "description": "Built an incremental ETL pipeline with change detection to extract, transform, and load data from PostgreSQL, with logging for reliability and traceability.",
+    "tags": ["ETL", "SQL", "Change Detection", "Logging", "Pipeline Automation"],
+    "link": "https://github.com/LevelUp-Applied-AI/m3-i3-etl-pipeline-M-Alradi",
+    "featured": false
+  },
+  {
+    "id": "pytorch-model",
+    "title": "PyTorch Model",
+    "category": "Foundations",
+    "subcategory": "Data Pipelines & PyTorch Fundamentals",
+    "description": "Implemented a neural network training loop in PyTorch, including data loading, forward/backward passes, and evaluation metrics.",
+    "tags": ["PyTorch", "Tensor Operations", "Training Loops", "Model Evaluation"],
+    "link": "https://github.com/LevelUp-Applied-AI/m2-i2-pytorch-M-Alradi",
+    "featured": false
+  },
+  {
+    "id": "data-pipeline",
+    "title": "Data Pipeline",
+    "category": "Foundations",
+    "subcategory": "Data Pipelines & PyTorch Fundamentals",
+    "description": "Built an end-to-end data loading and preprocessing pipeline using pandas, with validation checks and reproducible outputs.",
+    "tags": ["Python", "Pandas", "Data Cleaning", "Pipeline Design"],
+    "link": "https://github.com/LevelUp-Applied-AI/m2-l2-data-pipeline-M-Alradi",
+    "featured": false
+  },
+  {
+    "id": "descriptive-analytics",
+    "title": "Descriptive Analytics",
+    "category": "Foundations",
+    "subcategory": "Data Visualization & Communication",
+    "description": "Performed exploratory data analysis on a university student performance dataset, including data cleaning, distribution analysis, correlation studies, and hypothesis testing.",
+    "tags": ["Python", "Pandas", "Matplotlib", "Seaborn", "EDA", "Hypothesis Testing"],
+    "link": "https://github.com/LevelUp-Applied-AI/m4-l4-descriptive-analytics-M-Alradi",
+    "featured": false
+  },
+  {
+    "id": "regression-eval",
+    "title": "Regression & Evaluation",
+    "category": "Foundations",
+    "subcategory": "Regression & Machine Learning",
+    "description": "Built and evaluated regression models with a focus on model selection, performance metrics, and interpreting results.",
+    "tags": ["Python", "scikit-learn", "Regression", "Model Evaluation", "Statistics"],
+    "link": "https://github.com/LevelUp-Applied-AI/m5-l5a-regression-eval-M-Alradi",
+    "featured": false
+  },
+  {
+    "id": "sql-murder-mystery",
+    "title": "SQL Murder Mystery",
+    "category": "Foundations",
+    "subcategory": "Relational Databases & SQL",
+    "description": "Solved a fictional murder case using SQL by querying a relational database, exploring multiple tables, and connecting clues using joins and conditional logic.",
+    "tags": ["SQL", "JOIN", "GROUP BY", "Logical Reasoning", "Database Exploration"],
+    "link": "https://github.com/MsDiala/SQL-Murder-Mystery",
+    "featured": false
+  },
+  {
+    "id": "git-workflows",
+    "title": "Environment & Git Workflows",
+    "category": "Foundations",
+    "subcategory": "Git, Environment Setup & Collaboration",
+    "description": "Set up a reproducible Python development environment and practiced branching, merging, and pull request workflows.",
+    "tags": ["Git", "GitHub", "VS Code", "Virtual Envs", "Branch Management"],
+    "link": "https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-M-Alradi",
+    "featured": false
+  }
+]
