@@ -28,14 +28,15 @@
     "tags": ["SQL", "PostgreSQL", "Python", "Pandas", "KPI Design", "Business Analytics"],
     "link": "https://github.com/LevelUp-Applied-AI/m4-i4-kpi-dashboard-M-Alradi",
     "featured": true
-  },{
+  },
+  {
     "id": "ml-learning-curves-diagnostic",
     "title": "ML Learning Curves Diagnostic",
     "category": "Foundations",
     "subcategory": "Model Diagnostics & Bias-Variance",
     "description": "Used scikit-learn’s learning_curve to diagnose high bias vs. high variance in a logistic regression model on the telecom churn dataset. Analyzed training and validation curves to evaluate whether more data or a more complex model would improve performance.",
     "tags": ["Python", "scikit-learn", "Learning Curves", "Bias-Variance Tradeoff", "Model Diagnostics", "Logistic Regression"],
-    "link": "https://github.com/M-Alradi/learning_curves_diagnostic/pull/1",
+    "link": "https://github.com/M-Alradi/learning_curves_diagnostic",
     "featured": false
   },
   {
@@ -126,6 +127,66 @@
     "description": "Set up a reproducible Python development environment and practiced branching, merging, and pull request workflows.",
     "tags": ["Git", "GitHub", "VS Code", "Virtual Envs", "Branch Management"],
     "link": "https://github.com/LevelUp-Applied-AI/m1-l1-git-workflows-M-Alradi",
+    "featured": false
+  },
+  {
+    "id": "trees-ensembles",
+    "title": "Trees & Ensembles",
+    "category": "Foundations",
+    "subcategory": "Tree-Based Models",
+    "description": "Built Decision Tree and Random Forest models for customer churn prediction on an imbalanced dataset, evaluating performance using PR-AUC and calibration metrics. Demonstrated how tree-based models capture non-linear feature interactions that linear models miss.",
+    "tags": ["Python", "scikit-learn", "Decision Trees", "Random Forest", "PR-AUC", "Calibration"],
+    "link": "https://github.com/LevelUp-Applied-AI/m5-l5b-tree-models-M-Alradi/",
+    "featured": true
+  },
+  {
+    "id": "hyperparameter-tuning-nested-cv",
+    "title": "Hyperparameter Tuning & Nested Cross-Validation",
+    "category": "Foundations",
+    "subcategory": "Model Selection",
+    "description": "Applied GridSearchCV and nested cross-validation on Decision Trees and Random Forests to evaluate hyperparameter tuning bias. Showed how inner-CV performance overestimates real performance and quantified the selection gap between models.",
+    "tags": ["Python", "scikit-learn", "GridSearchCV", "Cross-Validation", "Model Selection"],
+    "link": "https://github.com/M-Alradi/hyperparameter_tuning",
+    "featured": false
+  },
+  {
+    "id": "model-comparison-decision-memo",
+    "title": "Model Comparison & Decision Memo",
+    "category": "Foundations",
+    "subcategory": "Model Evaluation & Business Impact",
+    "description": "Built a full model comparison pipeline evaluating linear and tree-based models for customer churn using 5-fold cross-validation, PR-AUC, and calibration metrics. Delivered a decision memo translating model performance into business tradeoffs for deployment.",
+    "tags": ["Python", "scikit-learn", "Model Comparison", "PR-AUC", "Business Analysis"],
+    "link": "https://github.com/LevelUp-Applied-AI/m5-i5b-model-comparison-M-Alradi",
+    "featured": true
+  },
+  {
+    "id": "from-notebook-to-cli",
+    "title": "From Notebook to Production Script",
+    "category": "Foundations",
+    "subcategory": "Production ML Systems",
+    "description": "Refactored a full ML model comparison pipeline into a production-ready CLI tool using argparse and structured logging. Enabled configurable training, evaluation, and output generation with reproducible command-line execution.",
+    "tags": ["Python", "CLI", "argparse", "Logging", "Production ML"],
+    "link": "https://github.com/M-Alradi/5B-S2",
+    "featured": false
+  },
+  {
+    "id": "multilingual-ner-pipeline",
+    "title": "Multilingual NER Pipeline with Rule-Based & Transformer Models",
+    "category": "Foundations",
+    "subcategory": "Named Entity Recognition",
+    "description": "Built an end-to-end Named Entity Recognition pipeline using spaCy, Hugging Face transformers, and custom rules. Compared multilingual and English-only models, evaluated performance against gold labels, and enhanced extraction with domain-specific climate entities.",
+    "tags": ["Python", "spaCy", "Transformers", "Hugging Face", "NER", "Multilingual NLP"],
+    "link": "https://github.com/LevelUp-Applied-AI/m6-l6a-ner-pipeline-M-Alradi",
+    "featured": true
+  },
+  {
+    "id": "entity-analysis-climate-corpus",
+    "title": "Entity Analysis Pipeline for Multilingual Climate Corpus",
+    "category": "Foundations",
+    "subcategory": "Entity Analysis & Information Extraction",
+    "description": "Built an end-to-end NER pipeline to extract, aggregate, and analyze entities from a multilingual climate dataset. Generated entity statistics, co-occurrence patterns, and visual insights across categories to uncover structured information from unstructured text.",
+    "tags": ["Python", "spaCy", "NER", "Data Analysis", "Visualization", "NLP"],
+    "link": "https://github.com/LevelUp-Applied-AI/m6-i6a-entity-analysis-M-Alradi",
     "featured": false
   }
 ]

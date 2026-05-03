@@ -87,8 +87,9 @@ function createSmallCard(project, category) {
 }
 
 function normalizeCategory(category) {
-  if (category === 'Personal Projects') return 'personal';
-  if (category === 'Foundations') return 'foundations';
+  const cleaned = category.trim().toLowerCase();
+  if (cleaned === 'personal projects') return 'personal';
+  if (cleaned === 'foundations') return 'foundations';
   return 'all';
 }
 
