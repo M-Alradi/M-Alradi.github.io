@@ -188,5 +188,84 @@
     "tags": ["Python", "spaCy", "NER", "Data Analysis", "Visualization", "NLP"],
     "link": "https://github.com/LevelUp-Applied-AI/m6-i6a-entity-analysis-M-Alradi",
     "featured": false
-  }
+  },
+  {
+  "id": "embeddings-comparison-space-exploration",
+  "title": "Embeddings Comparison & Space Exploration",
+  "category": "Foundations",
+  "subcategory": "Embeddings & Semantic Analysis",
+  "description": "Implemented and compared TF-IDF, GloVe, and DistilBERT embeddings to analyze semantic similarity across texts, and explored embedding spaces using dimensionality reduction techniques for visualization and insight.",
+  "tags": ["NLP", "TF-IDF", "GloVe", "BERT", "Embeddings", "Similarity", "Data Visualization"],
+  "link": "https://github.com/LevelUp-Applied-AI/m6-l6b-embeddings-M-Alradi",
+  "featured": false
+},
+{
+  "id": "semantic-nlp-pipeline-ner-embeddings-search",
+  "title": "End-to-End Semantic NLP Pipeline with NER and DistilBERT Search",
+  "category": "Foundations",
+  "subcategory": "Semantic Search & NLP Pipelines",
+  "description": "Built an end-to-end NLP pipeline combining spaCy NER and DistilBERT embeddings for semantic search over a text corpus. The system supports preprocessing, cosine-similarity search, and entity-enriched results, with extensions for hybrid TF-IDF search, entity-aware filtering, and scalable precomputed indexing. Demonstrates a full retrieval pipeline used in modern semantic and RAG systems." ,
+  "tags": [
+    "NER",
+    "spaCy",
+    "DistilBERT",
+    "Embeddings",
+    "Semantic Search",
+    "TF-IDF",
+    "Hybrid Search",
+    "NLP Pipeline"
+  ],
+  "link": "https://github.com/LevelUp-Applied-AI/m6-i6b-semantic-pipeline-M-Alradi",
+  "featured": false
+  },
+  {
+  "id": "fine-tune-distilbert-sentiment",
+  "title": "Fine-Tune DistilBERT for Sentiment Classification",
+  "category": "Foundations",
+  "subcategory": "Model Fine-Tuning & Evaluation",
+  "description": "Fine-tuned a DistilBERT model on the AARSynth app reviews dataset to classify user sentiment, producing an end-to-end training pipeline. Evaluated performance via a detailed metrics report and confusion matrix before deploying the finalized model directly to the Hugging Face Hub.",
+  "tags": ["NLP", "Transformers", "DistilBERT", "Fine-Tuning", "Sentiment Analysis", "Hugging Face"],
+  "link": "https://github.com/LevelUp-Applied-AI/m7-l7a-finetune-sentiment-M-Alradi",
+  "featured": false
+  },
+  {
+  "id": "manual-evaluation-calibration",
+  "title": "Manual Evaluation & Model Calibration",
+  "category": "Foundations",
+  "subcategory": "Model Fine-Tuning & Evaluation",
+  "description": "Developed a custom PyTorch inference loop to evaluate model performance from primitives, bypassing high-level libraries. Implemented reliability diagrams and Expected Calibration Error (ECE) to analyze model over-confidence and trustworthiness for production deployment.",
+  "tags": ["PyTorch", "Model Calibration", "Inference Loops", "Probability Analysis", "Data Visualization"],
+  "link": "https://github.com/LevelUp-Applied-AI/m7-l7a-finetune-sentiment-M-Alradi",
+  "featured": false
+  },
+  {
+    "id": "domain-shift-analysis",
+    "title": "Domain-Shift Analysis",
+    "category": "Foundations",
+    "subcategory": "Model Fine-Tuning & Evaluation",
+    "description": "Evaluated the out-of-domain generalization capabilities of an app-review sentiment classifier by applying it to tech and entertainment news articles. Conducted a comprehensive analysis on prediction drift, confidence distribution shifts, and qualitative failure modes to assess production readiness.",
+    "tags": ["NLP", "Domain Shift", "Model Generalization", "Transformers"],
+    "link": "https://github.com/LevelUp-Applied-AI/m7-i7a-domain-shift-M-Alradi",
+    "featured": false
+  },
+  {
+  "id": "pretrained-qa-evaluation",
+  "title": "Pre-Trained QA Evaluation on Tech/Entertainment News",
+  "category": "Foundations",
+  "subcategory": "Model Fine-Tuning & Evaluation",
+  "description": "Built an evaluation harness to benchmark a pre-trained extractive Question-Answering model on a news dataset using Exact-Match (EM) and token-F1 metrics. Analyzed aggregate performance and systematically mapped out algorithmic failure modes to evaluate domain-specific deployment readiness.",
+  "tags": ["NLP", "Question Answering", "Model Evaluation", "SQuAD", "Transformers"],
+  "link": "https://github.com/LevelUp-Applied-AI/m7-l7b-pretrained-qa-M-Alradi",
+  "featured": false
+  },
+  {
+  "id": "summarization-integrated-evaluation",
+  "title": "Summarization & Integrated Evaluation Report",
+  "category": "Foundations",
+  "subcategory": "Model Fine-Tuning & Evaluation",
+  "description": "Implemented an encoder-decoder summarization pipeline using DistilBART, and engineered a comparative two-stage pipeline contrasting full-text chunked QA against summarize-then-QA strategies. Synthesized ROUGE/F1 metrics and information-loss trade-offs into a unified production-readiness report.",
+  "tags": ["Transformers", "Text Summarization", "Question Answering", "Pipeline Composition", "Model Evaluation"],
+  "link": "https://github.com/LevelUp-Applied-AI/m7-i7b-summary-eval-M-Alradi/pull/1",
+  "featured": false
+}
 ]
