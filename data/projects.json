@@ -167,7 +167,7 @@
     "description": "Refactored a full ML model comparison pipeline into a production-ready CLI tool using argparse and structured logging. Enabled configurable training, evaluation, and output generation with reproducible command-line execution.",
     "tags": ["Python", "CLI", "argparse", "Logging", "Production ML"],
     "link": "https://github.com/M-Alradi/5B-S2",
-    "featured": false
+    "featured": true
   },
   {
     "id": "multilingual-ner-pipeline",
@@ -265,7 +265,129 @@
   "subcategory": "Model Fine-Tuning & Evaluation",
   "description": "Implemented an encoder-decoder summarization pipeline using DistilBART, and engineered a comparative two-stage pipeline contrasting full-text chunked QA against summarize-then-QA strategies. Synthesized ROUGE/F1 metrics and information-loss trade-offs into a unified production-readiness report.",
   "tags": ["Transformers", "Text Summarization", "Question Answering", "Pipeline Composition", "Model Evaluation"],
-  "link": "https://github.com/LevelUp-Applied-AI/m7-i7b-summary-eval-M-Alradi/pull/1",
+  "link": "https://github.com/LevelUp-Applied-AI/m7-i7b-summary-eval-M-Alradi",
   "featured": false
+},
+{
+  "id": "vector-retrieval",
+  "title": "Vector Retrieval",
+  "category": "Foundations",
+  "subcategory": "Retrieval-Augmented Generation (RAG)",
+  "description": "Built the retrieval layer of a Retrieval-Augmented Generation (RAG) system using Weaviate and Sentence Transformers. Designed a multi-property retrieval schema, indexed a technical Q&A corpus with dense embeddings, implemented BM25, dense vector, and hybrid retrieval strategies, and evaluated their performance using Recall@5, Recall@10, and Mean Reciprocal Rank (MRR) to identify the most effective retrieval approach.",
+  "tags": [
+    "RAG",
+    "Vector Retrieval",
+    "Weaviate",
+    "Sentence Transformers",
+    "BM25",
+    "Hybrid Search",
+    "Dense Retrieval",
+    "Information Retrieval",
+    "Embedding Models",
+    "Model Evaluation"
+  ],
+  "link": "https://github.com/M-Alradi/m8-l8",
+  "featured": false
+},
+{
+  "id": "rag-service",
+  "title": "RAG Service",
+  "category": "Foundations",
+  "subcategory": "Retrieval-Augmented Generation (RAG)",
+  "description": "Developed an end-to-end Retrieval-Augmented Generation (RAG) service by integrating hybrid retrieval with a FLAN-T5 generator. Implemented a complete retrieval → prompt construction → generation pipeline, evaluated answer quality using keyword recall and groundedness metrics, measured abstention behavior on unanswerable queries, and validated the service with automated unit tests.",
+  "tags": [
+    "RAG",
+    "Hybrid Search",
+    "Weaviate",
+    "FLAN-T5",
+    "Prompt Engineering",
+    "Question Answering",
+    "Groundedness",
+    "Model Evaluation",
+    "Information Retrieval"
+  ],
+  "link": "https://github.com/M-Alradi/m8-i8",
+  "featured": false
+},
+{
+  "id": "query-router",
+  "title": "Query Router",
+  "category": "Foundations",
+  "subcategory": "Retrieval-Augmented Generation (RAG)",
+  "description": "Developed an intelligent query routing layer that classified user queries as factoid, semantic, or mixed and dynamically dispatched them to BM25, dense vector, or hybrid retrieval. Evaluated the routed retriever against individual retrieval strategies using Recall@5 and Mean Reciprocal Rank (MRR), analyzing when adaptive routing outperformed fixed retrieval approaches.",
+  "tags": [
+    "RAG",
+    "Query Routing",
+    "Information Retrieval",
+    "BM25",
+    "Dense Retrieval",
+    "Hybrid Search",
+    "Weaviate",
+    "Sentence Transformers",
+    "Model Evaluation"
+  ],
+  "link": "https://github.com/M-Alradi/m8-s8",
+  "featured": true
+},
+{
+  "id": "kg-construction",
+  "title": "KG Construction",
+  "category": "Foundations",
+  "subcategory": "Knowledge Graphs",
+  "description": "Designed and implemented a knowledge graph for a recipe domain using RDF and Turtle, extending an ontology with structured entities and SKOS labels. Deployed the dataset to an Apache Jena Fuseki triple store, executed SPARQL queries locally and remotely to validate the graph, and verified semantic retrieval across linked resources.",
+  "tags": [
+    "Knowledge Graphs",
+    "RDF",
+    "Turtle",
+    "SPARQL",
+    "Apache Jena Fuseki",
+    "SKOS",
+    "Semantic Web",
+    "Ontology Design",
+    "Graph Databases"
+  ],
+  "link": "https://github.com/M-Alradi/m9-l9a",
+  "featured": false
+},
+{
+  "id": "cars-ontology-design",
+  "title": "CARS Ontology Design",
+  "category": "Foundations",
+  "subcategory": "Knowledge Graphs",
+  "description": "Designed a custom RDF ontology for the automotive domain, modeling vehicle classes, manufacturers, and related entities using Semantic Web standards. Applied ontology engineering principles including class hierarchies, SKOS labels, optional properties, and semantic relationships, then demonstrated the model through SPARQL queries for subclass reasoning, label disambiguation, and graph exploration.",
+  "tags": [
+    "Knowledge Graphs",
+    "Ontology Design",
+    "RDF",
+    "Turtle",
+    "SPARQL",
+    "Semantic Web",
+    "SKOS",
+    "RDFS",
+    "Ontology Engineering",
+    "Graph Modeling"
+  ],
+  "link": "https://github.com/M-Alradi/aispire-m9a-stretch-ontology",
+  "featured": true
+},
+{
+  "id": "nl-cypher-pipeline",
+  "title": "NL → Cypher Pipeline",
+  "category": "Foundations",
+  "subcategory": "Knowledge Graphs",
+  "description": "Built a deterministic natural language–to–Cypher pipeline that translated user questions into parameterized Neo4j queries using intent detection, slot extraction, and template-based query generation. Executed the generated Cypher against a recipe knowledge graph, supported multiple query patterns including hierarchical traversals and filtering, and provided explainable, schema-bounded retrieval with robust validation and error handling.",
+  "tags": [
+    "Knowledge Graphs",
+    "Neo4j",
+    "Cypher",
+    "Natural Language Processing",
+    "Intent Detection",
+    "Slot Extraction",
+    "Graph Databases",
+    "Query Generation",
+    "Semantic Search"
+  ],
+  "link": "https://github.com/M-Alradi/m9-i9b",
+  "featured": true
 }
 ]
