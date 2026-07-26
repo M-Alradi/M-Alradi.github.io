@@ -389,5 +389,24 @@
   ],
   "link": "https://github.com/M-Alradi/m9-i9b",
   "featured": true
+},
+{
+  "id": "kg-critic-cypher-verifier",
+  "title": "KG Critic: 4-Stage Cypher Verifier Cascade",
+  "category": "Foundations",
+  "subcategory": "Knowledge Graphs",
+  "description": "Implemented a multi-stage Knowledge Graph verifier that adjudicates structured claims (subject, predicate, object triples) against a Neo4j recipe graph using an open-world assumption. Designed a 4-stage decision cascade incorporating direct Cypher existence checks, variable-length hierarchical entailment traversals, schema domain/range constraint validations, and explicit abstentions with calibrated confidence scoring and evidence path provenance.",
+  "tags": [
+    "Knowledge Graphs",
+    "Neo4j",
+    "Cypher",
+    "Fact Verification",
+    "Graph Databases",
+    "Ontology & Hierarchies",
+    "Schema Validation",
+    "Open-World Assumption"
+  ],
+  "link": "https://github.com/M-Alradi/m9-s9b",
+  "featured": true
 }
 ]
