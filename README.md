@@ -4,7 +4,7 @@
 
 ## About
 This is my personal portfolio website showcasing my journey and work as a 
-Machine Learning Engineer and Software Developer. It highlights my experience 
+Machine Learning/AI  Engineer. It highlights my experience 
 building intelligent systems, NLP pipelines, OCR workflows, and full-stack 
 applications — built over nearly 2 years at 01 Inventions Company (Carseer) 
 and continued through the AI.SPIRE program.
