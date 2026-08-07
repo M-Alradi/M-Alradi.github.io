@@ -416,9 +416,7 @@
   "subcategory": "Retrieval-Augmented Generation (RAG)",
   "description": "Built an offline Retrieval-Augmented Generation (RAG) system that enables Arabic-speaking drivers to query Chinese vehicle manuals (BYD, Geely, VW, and others) in natural language. Designed an end-to-end pipeline featuring Arabic query normalization, rule-based NER and intent classification, metadata-aware retrieval with Chroma, cross-encoder re-ranking, and grounded answer generation using a local Ollama LLM. Implemented an ingestion pipeline supporting multilingual PDF parsing, OCR fallback, English-to-Arabic translation, page-aware chunking, and citation-preserving retrieval to provide accurate, explainable answers with manual page references.",
   "tags": [
-    "Retrieval-Augmented Generation",
     "RAG",
-    "Natural Language Processing",
     "Arabic NLP",
     "FastAPI",
     "ChromaDB",
@@ -427,7 +425,6 @@
     "Vector Search",
     "Information Retrieval",
     "OCR",
-    "PDF Processing",
     "Docker",
     "PostgreSQL"
   ],
