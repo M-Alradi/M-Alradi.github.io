@@ -408,5 +408,47 @@
   ],
   "link": "https://github.com/M-Alradi/m9-s9b",
   "featured": true
+},
+{
+  "id": "dalilak-arabic-rag-assistant",
+  "title": "Dalilak: Arabic RAG Assistant for Chinese Vehicle Manuals",
+  "category": "Personal Projects",
+  "subcategory": "Retrieval-Augmented Generation (RAG)",
+  "description": "Built an offline Retrieval-Augmented Generation (RAG) system that enables Arabic-speaking drivers to query Chinese vehicle manuals (BYD, Geely, VW, and others) in natural language. Designed an end-to-end pipeline featuring Arabic query normalization, rule-based NER and intent classification, metadata-aware retrieval with Chroma, cross-encoder re-ranking, and grounded answer generation using a local Ollama LLM. Implemented an ingestion pipeline supporting multilingual PDF parsing, OCR fallback, English-to-Arabic translation, page-aware chunking, and citation-preserving retrieval to provide accurate, explainable answers with manual page references.",
+  "tags": [
+    "Retrieval-Augmented Generation",
+    "RAG",
+    "Natural Language Processing",
+    "Arabic NLP",
+    "FastAPI",
+    "ChromaDB",
+    "Ollama",
+    "Cross-Encoder Re-ranking",
+    "Vector Search",
+    "Information Retrieval",
+    "OCR",
+    "PDF Processing",
+    "Docker",
+    "PostgreSQL"
+  ],
+  "link": "https://github.com/capstone-G2-T1/main-repo",
+  "featured": true
+},
+{
+  "id": "smart-guidance-chain",
+  "title": "Smart Guidance Chain: AI Travel Companion Platform",
+  "category": "Personal Projects",
+  "subcategory": "Multi-Agent Systems",
+  "description": "Built an AI-assisted tourist guidance platform combining a multi-agent orchestration layer with a bilingual (Arabic/English) knowledge base. Designed a FastAPI backend with async PostgreSQL (SQLAlchemy 2.0 + Alembic), Redis-backed session management, Qdrant vector search, and MinIO object storage. Implemented secure authentication using encrypted JWE access/refresh tokens with Redis-tracked revocation and Google OAuth. Developed specialized agents (planning, recommendation, emergency, navigation) coordinated through a routing and orchestration service, alongside a knowledge layer covering places, hotels, restaurants, and medical providers with reviews, opening hours, duplicate detection, and CSV-based external data synchronization.",
+  "tags": [
+    "Multi-Agent Systems",
+    "FastAPI",
+    "Retrieval-Augmented Generation",
+    "Arabic NLP",
+    "Vector Search",
+    "PostgreSQL"
+  ],
+  "link": "https://github.com/Hussamraba/smart_guidance_chain",
+  "featured": true
 }
 ]
